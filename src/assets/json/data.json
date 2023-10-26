@@ -248,6 +248,12 @@
             "icon": "fa-brands fa-telegram",
             "address": "@hosseinkalanaki1990",
             "link": "https://t.me/hosseinkalanaki1990"
+        },
+        {
+            "name": "Email",
+            "icon": "fa-solid fa-envelope",
+            "address": "hosseinkalanaki@outlook.com",
+            "link": "mailto:hosseinkalanaki@outlook.com"
         }
     ],
     "personalInformation": {
