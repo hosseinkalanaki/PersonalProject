@@ -34,33 +34,61 @@
             "name": "Junior Windows Developer",
             "companyName": "Omran Gostar Resalat",
             "Location": "Tehran,Iran",
-            "duration": "July 2008 - May 2016",
+            "duration": "July 2008 - May 2013",
             "description": [
-                "Working For 5 Years on automation system.",
-                "Reduced loading time of system and refactored all c# widnows form application codes",
-                "Improved project reports with stimulsoft"
+                "Experience of developing an automation windows form project.",
+                "I work with C#, Windows Form and Stimulsoft for Reports"
             ]
         },
         {
-            "name": "Junior Windows Developer",
-            "companyName": "Omran Gostar Resalat",
+            "name": "Junior Backend Developer",
+            "companyName": "Persis",
             "Location": "Tehran,Iran",
-            "duration": "July 2008 - May 2016",
+            "duration": "May 2013 - Jun 2016",
             "description": [
-                "Working For 5 Years on automation system.",
-                "Reduced loading time of system and refactored all c# widnows form application codes",
-                "Improved project reports with stimulsoft"
+                "Working for 3 years on ERP to cover all process at food companies.",
+                "This ERP has manage all part of business like product, store, marketer and Customer's financial situation"
             ]
         },
         {
-            "name": "Junior Windows Developer",
-            "companyName": "Omran Gostar Resalat",
+            "name": "Senior Backend Developer",
+            "companyName": "Niyayesh seyr sahar",
             "Location": "Tehran,Iran",
-            "duration": "July 2008 - May 2016",
+            "duration": "Jun 2016 - March 2019",
             "description": [
-                "Working For 5 Years on automation system.",
-                "Reduced loading time of system and refactored all c# widnows form application codes",
-                "Improved project reports with stimulsoft"
+                "Working for 3 years on our web application which was for a travel agency.",
+                "I used all web API for getting real-time data for all selling ticket and indicating them to the customer.",
+                "I create page for showing the arrival flights with international API."
+            ]
+        },
+        {
+            "name": "Full Stack Developer",
+            "companyName": "Kaspid",
+            "Location": "Tehran,Iran",
+            "duration": "March 2019 - August 2020",
+            "description": [
+                "Working for 1 years on some marketing, company and product shower like:",
+                "pars-opal.com",
+                "mrtaster.com",
+                "rtabelt.com",
+                "...",
+                "I created Backend of the most mobile application in this place."
+            ]
+        },
+        {
+            "name": "Manager and Full stack developer",
+            "companyName": "Pendar Pajouh",
+            "Location": "Tehran,Iran",
+            "duration": "August 2020 - NOW",
+            "description": [
+                "Working for 2 years on some large scale projects about Telecommunications.",
+                "I had some challenging experience like Connecting the project with socket to telecommunication device and create some change on subscriber.",
+                "Getting alarm of devices from country and showing critical alarms to the customer.",
+                "Measuring the temperature and humidity and showing them on one page.",
+                "Tacking time of all phone conversation to issue a bill.",
+                "We Created call center in which 300 clients could be connect at the same time with the VOIP technology.",
+                "Also we handled auto answer (IVR) in this Project.",
+                "On the other hand , We need to work with telecommunication switches Like EWSD (Siemens), Huawei and etc so I worked with this device command prompt."
             ]
         }
     ],
@@ -80,7 +108,7 @@
             "listening": "5"
         }
     ],
-    "profileSummary": " A .NET Full-Stack Developer with 12 Years experience in leading Front-end and Back-end of web application teams.<br>Interested in team work and learning new technologies.<br>Also fascinated about new experiences.<br>Working on ESB, monitoring, VOIP and some online marketing projects.",
+    "profileSummary": "I was born on August 02nd, 1990 in Tehran Iran.I married on<br>March 2016 and I have no children. I am Full stack ASP.net<br>web developer.<br>I always like to team work and learn new technologies. Also I<br>think anything important in work are experiences. So I always<br>want to used my and other co-workers experiences.<br>I work on ESB, monitoring, VOIP and some online marketing<br>projects.<br>I have experience teamwork and management programming<br>team at large scale projects.",
     "projects": [
         {
             "name": "Mahyashop",
@@ -102,48 +130,98 @@
     "skills": [
         {
             "order": 1,
-            "name": "C# Programming",
-            "progress": 100
+            "name": "SQL Server",
+            "progress": 70
         },
         {
             "order": 2,
-            "name": "ASP.NET MVC",
-            "progress": 100
+            "name": "C# Code First",
+            "progress": 80
         },
         {
             "order": 3,
-            "name": "ASP.NET Core 6",
+            "name": "Linq",
             "progress": 70
         },
         {
             "order": 4,
-            "name": "Restful Web Api",
+            "name": "C# Programming",
             "progress": 100
         },
         {
             "order": 5,
-            "name": "HTML",
+            "name": "ASP.NET MVC",
             "progress": 100
         },
         {
             "order": 6,
-            "name": "CSS",
-            "progress": 100
+            "name": "ASP.NET Core 6",
+            "progress": 80
         },
         {
             "order": 7,
-            "name": "Angular 15",
+            "name": "Web API",
             "progress": 80
         },
         {
             "order": 8,
+            "name": "HTML",
+            "progress": 100
+        },
+        {
+            "order": 9,
+            "name": "CSS",
+            "progress": 90
+        },
+        {
+            "order": 10,
+            "name": "Javascript",
+            "progress": 80
+        },
+        {
+            "order": 11,
+            "name": "Jquery",
+            "progress": 90
+        },
+        {
+            "order": 12,
+            "name": "Bootstrap",
+            "progress": 75
+        },
+        {
+            "order": 13,
             "name": "Vue.js",
             "progress": 80
         },
         {
-            "order": 5,
-            "name": "Jquery",
-            "progress": 80
+            "order": 14,
+            "name": "Angular 15",
+            "progress": 95
+        },
+        {
+            "order": 15,
+            "name": "Source Control (git, TFS)",
+            "progress": 75
+        },
+        {
+            "order": 16,
+            "name": "Rabbit MQ",
+            "progress": 65
+        },
+        {
+            "order": 17,
+            "name": "Socket Programming",
+            "progress": 85
+        },
+        {
+            "order": 18,
+            "name": "Web Socket",
+            "progress": 75
+        },
+        {
+            "order": 19,
+            "name": "VOIP",
+            "progress": 60
         }
     ],
     "socialMedia": [
