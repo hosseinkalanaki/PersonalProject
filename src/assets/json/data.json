@@ -228,22 +228,26 @@
         {
             "name": "linkdin",
             "icon": "fab fa-linkedin",
-            "address": "https://www.linkedin.com/in/hosseinkalanaki"
+            "address": "https://www.linkedin.com/in/hosseinkalanaki",
+            "link": "https://www.linkedin.com/in/hosseinkalanaki"
         },
         {
             "name": "whatsapp",
             "icon": "fa-brands fa-whatsapp",
-            "address": "+989335580303"
+            "address": "+989335580303",
+            "link": "https://wa.me/+989335580303"
         },
         {
             "name": "github",
             "icon": "fa-brands fa-github",
-            "address": "https://github.com/hosseinkalanaki"
+            "address": "https://github.com/hosseinkalanaki",
+            "link": "https://github.com/hosseinkalanaki"
         },
         {
             "name": "telegram",
             "icon": "fa-brands fa-telegram",
-            "address": "@hosseinkalanaki1990"
+            "address": "@hosseinkalanaki1990",
+            "link": "https://t.me/hosseinkalanaki1990"
         }
     ],
     "personalInformation": {
