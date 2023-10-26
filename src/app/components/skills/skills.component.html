@@ -1,0 +1,15 @@
+<div class="header-card pt-3 ps-3 mt-3">
+    <i class="fa fa-lightbulb-o"></i>
+    <span>Skills</span>
+</div>
+<div class="content-card pt-3 ps-3">
+    <div *ngFor="let item of dataModel" class="skill-item mt-3">
+        <span>
+            {{ item.name }}
+        </span>
+        <div class="progress-bar ms-2">
+            <span class="progress-bar-changeable" [style.width.%]="item.progress"></span>
+            <span [style.color]="item.progress >= 50 ? 'white' : '#3e4952'">{{item.progress}} %</span>
+        </div>
+    </div>
+</div>

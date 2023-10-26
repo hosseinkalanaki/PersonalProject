@@ -1,0 +1,8 @@
+.social-media-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.social-media-item>i{
+    font-size: 25px;
+}

@@ -1,0 +1,42 @@
+<div class="row">
+    <div class="col-6">
+        <div class="start-box">
+            <div class="information-box">
+                <i class="fa fa-mobile mx-2"></i>
+                <p>
+                    {{dataModel.mobileNumber}}
+                </p>
+            </div>
+            <div class="information-box mb-3">
+                <i class="fa fa-map-marker mx-2"></i>
+                <p>
+                    {{dataModel.address}}
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="end-box">
+            <div class="information-box">
+                <i class="fa fa-envelope mx-2"></i>
+                <p>
+                    {{dataModel.email}}
+                </p>
+            </div>
+            <div class="information-box mb-3">
+                <i class="fa fa-phone mx-2 "></i>
+                <p>
+                    {{dataModel.telNumber}}
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="picture-box">
+        <div class="first-column"></div>
+        <img  alt="hosseinkalanaki"
+        [attr.src]="dataModel.picture">
+        <div class="second-column"></div>
+        <div class="thierd-column"></div>
+    </div>
+</div>
