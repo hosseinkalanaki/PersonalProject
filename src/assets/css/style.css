@@ -53,11 +53,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .label-text {
     font-size: large;
     font-weight: 500;
+    max-width: 60%;
 }
 
 .arrow-item {
@@ -69,7 +71,32 @@ body {
     height: inherit;
     display: flex;
     justify-content: flex-end;
+    max-width: 60%;
 }
+
+
+@media (max-width: 970px)  {
+    img.arrow-item {
+        width: 0.75rem;
+    }
+
+    .arrow-box>.label-item {
+        font-size: 10px;
+    }
+
+    .content-card,
+    .header-card {
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .header-card {
+        width: 100%;
+        margin-right: 0%;
+
+    }
+}
+
 
 .label-item {
     font-size: large;

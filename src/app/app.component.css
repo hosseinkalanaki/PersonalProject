@@ -31,6 +31,7 @@
     align-content: center;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .personal-banner-info>p {
@@ -46,8 +47,13 @@
     position: relative;
     background-color: #e1e1e3;
 }
-.bodyContent>div.col-6 {
+.bodyContent>div {
     border-top: 1rem solid white;
 }
 
 
+@media (max-width: 970px) {
+    .bodyContent>div {
+        border-top: 0px;
+    }
+}
