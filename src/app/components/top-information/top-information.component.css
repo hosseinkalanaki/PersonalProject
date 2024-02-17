@@ -1,0 +1,141 @@
+.information-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 4rem;
+    width: 50%;
+    margin: 0% 25%;
+}
+
+.information-box>p {
+    margin: unset;
+}
+
+.information-box>i {
+    font-size: 22px;
+}
+
+div.row {
+    position: relative;
+}
+
+div.information-box:first-child {
+    border-bottom: 2px solid black;
+}
+
+.wite-background {
+    background-color: #e1e1e3;
+    border-top: 1rem solid white;
+}
+
+.picture-box {
+    position: absolute;
+    top: -50%;
+    left: 42%;
+    width: auto;
+}
+
+.picture-box>img {
+    border-radius: 50%;
+    border: 10px solid white;
+    width: 12rem;
+}
+
+.first-column {
+    background-color: white;
+    width: 1rem;
+    height: 5rem;
+    position: absolute;
+    bottom: -48px;
+    left: 20px;
+    rotate: 40deg;
+    border-radius: 4px;
+}
+
+.second-column {
+    background-color: white;
+    width: 1rem;
+    height: 5rem;
+    position: absolute;
+    bottom: -48px;
+    right: 20px;
+    rotate: -40deg;
+    border-radius: 4px;
+}
+
+.thierd-column {
+    content: "";
+    width: 11.35rem;
+    height: 1rem;
+    background-color: #e1e1e3;
+    position: absolute;
+    bottom: -49px;
+    left: 1.1rem;
+    z-index: 100;
+}
+
+.picture-box::before {
+    content: "";
+    width: 10rem;
+    background-color: transparent;
+    position: absolute;
+    bottom: -49px;
+    left: 12.38rem;
+    z-index: 101;
+    border-bottom: 0px solid transparent;
+    border-Top: 1rem solid transparent;
+    border-left: 13px solid #e1e1e3;
+    height: 1rem;
+}
+
+.picture-box::after {
+    content: "";
+    width: 5rem;
+    background-color: transparent;
+    position: absolute;
+    bottom: -49px;
+    right: 12.4rem;
+    z-index: 101;
+    border-bottom: 0px solid transparent;
+    border-Top: 1rem solid transparent;
+    border-right: 13px solid #e1e1e3;
+    height: 1rem;
+}
+
+
+@media (max-width: 970px)  {
+    .picture-box {
+        top: -22%;
+        left: 25%;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .second-column {
+        display: none;
+    }
+
+    .thierd-column {
+        display: none;
+    }
+
+    .first-column {
+        display: none;
+    }
+
+    div.row>.wite-background:first-child {
+        padding-top: 6rem;
+    }
+
+    .information-box {
+        justify-content: center;
+        width: 100%;
+        margin: unset;
+    }
+    .information-box>p {
+        text-align: center;
+        padding: unset;
+        width: 60%;
+    }
+}

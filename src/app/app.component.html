@@ -1,0 +1,51 @@
+<div class="container content-box mt-2 mb-4" *ngIf="dataModel">
+  <div class="row top-banner">
+    <div class="col-12">
+      <h1 class="mt-2">
+        {{dataModel.personalInformation.name}}
+      </h1>
+      <h4>
+        {{dataModel.personalInformation.job}}
+      </h4>
+      <div class="personal-banner-info">
+        <span class="mx-1">
+          <i class="fa fa-check-square-o"></i>
+          DOB :
+        </span>
+        <p>
+          {{dataModel.personalInformation.dob}}
+        </p>
+        <span class="mx-1">
+          <i class="fa fa-check-square-o"></i>
+          Maritial Status :
+        </span>
+        <p>
+          {{dataModel.personalInformation.maritial}}
+        </p>
+        <span class="mx-1">
+          <i class="fa fa-check-square-o"></i>
+          Military Service :
+        </span>
+        <p>
+          {{dataModel.personalInformation.militaryStete}}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <app-top-information [dataModel]="dataModel.personalInformation"></app-top-information>
+  <div class="row bodyContent">
+    <div class="col-lg-6 col-12">
+      <app-profile-summary [dataModel]="dataModel.profileSummary"></app-profile-summary>
+      <app-skills [dataModel]="dataModel.skills"></app-skills>
+      <app-language [dataModel]="dataModel.language"></app-language>
+      <app-social-media [dataModel]="dataModel.socialMedia"></app-social-media>
+    </div>
+    <div class="col-lg-6 col-12 mb-4">
+      <app-education [dataModel]="dataModel.educations"></app-education>
+      <app-experience [dataModel]="dataModel.experiences"></app-experience>
+      <app-certificates [dataModel]="dataModel.certificats"></app-certificates>
+      <app-projects [dataModel]="dataModel.projects"></app-projects>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<div class="header-card pt-3 ps-3 mt-3">
+    <i class="fa-solid fa-globe"></i>
+        <span>Social Media</span>
+</div>
+<div class="content-card pt-3 ps-3">
+    <div *ngFor="let item of dataModel" class="social-media-item mt-3">
+        <i [class]="item.icon"></i>
+
+        <a class="ms-2" [attr.href]="item.link" target="_blank">
+            {{ item.address }}
+        </a>
+      
+    </div>
+</div>

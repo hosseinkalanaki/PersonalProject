@@ -1,0 +1,59 @@
+.top-banner {
+    height: 15rem;
+}
+
+.top-banner>div.col-12 {
+    height: 100%;
+    background-image: url('./../assets/images/top-background.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.top-banner>div.col-12 h1 {
+    color: #f6f1ee;
+}
+
+.top-banner>div.col-12 h4 {
+    color: #e0e1e3;
+}
+
+.top-banner>div.col-12 span,
+.top-banner>div.col-12 p {
+    color: #cbc7be;
+    font-weight: 500;
+}
+
+.top-banner>div.col-12>div.personal-banner-info {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.personal-banner-info>p {
+    margin: unset;
+}
+
+.content-box {
+    border: 2px solid #cbc7be;
+    box-shadow: inset 0px 0px 4px 0px #cbc7be, 0px 0px 4px 0px #cbc7be;
+}
+
+.bodyContent {
+    position: relative;
+    background-color: #e1e1e3;
+}
+.bodyContent>div {
+    border-top: 1rem solid white;
+}
+
+
+@media (max-width: 970px) {
+    .bodyContent>div {
+        border-top: 0px;
+    }
+}
