@@ -16,7 +16,9 @@ export class AppComponent implements OnInit {
 
   public dataModel!: JsonData;
 
-  public ngOnInit(): void { 
+  public ngOnInit(): void {
+    console.log("Json File Address is");
+    console.log("https://hosseinkalanaki.github.io/PersonalProject/assets/json/data.json"); 
     this.http.get('https://hosseinkalanaki.github.io/PersonalProject/assets/json/data.json').subscribe((response) => {
       this.dataModel = response as JsonData;
     });    
